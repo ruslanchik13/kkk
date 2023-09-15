@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 300px;
+}
+
+.input {
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.active {
+    display: block;
+}
+
+.disable {
+    display: none;
+}
+
+.input-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+
+button {
+    font-size: 30px;
+    height: 40px;
+    width: 200px;
+}
